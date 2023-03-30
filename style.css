@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(90deg,#B0DAFF,#FFDEB4);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.image_container{
+    background-image: url('img2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: greenyellow;
+    transition: 0.5s;
+}
+
+.about_him{
+    margin-top: 50px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    margin: auto;
+}
+.heading{
+    color: darkslategrey;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+p,li{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.para{
+    height: 50vh;
+    padding: 10px 10px;
+    margin-left: 100px;
+    width: 80%;
+    text-align: center;
+}
+.achieve{
+    width: 100%;
+    height: 50vh;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.h{
+    color: darkslategrey;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+ol{
+    margin-top: 5px;
+}
